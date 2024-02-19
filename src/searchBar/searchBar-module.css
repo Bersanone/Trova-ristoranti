@@ -1,0 +1,54 @@
+#BarraRicerca{
+    width: 100%;
+    height: 400px;
+    background-image: url('./Risorse/iStock-635920906-1024x683.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#filtri{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#filtri button{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#campi{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#campi input{
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#invia{
+    width: 12%;
+    height: 12%;
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+    background-color: black;
+}
