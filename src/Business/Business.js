@@ -3,15 +3,16 @@ import './Business-module.css'
  function Business({informazioni}){  
     return(
         <div id='risto'>
-           <img src={informazioni.immagine} alt={informazioni.nome}/>
-              <h1>{informazioni.nome}</h1>
-              <p>{informazioni.indirizzo}</p>
-              <p>{informazioni.citta}</p>
-              <p>{informazioni.cap}</p>
+           <img src={informazioni.image_url} alt={informazioni.nome}/>
+              <h1>{informazioni.name}</h1>
+              <p>{informazioni.location.address1}</p>
+              <p>{informazioni.location.city}</p>
+              <p>{informazioni.location.zip_code}</p>
+              <p>{informazioni.phone}</p>
               <div className="valutazioni">
-                <p>{informazioni.categoria}</p>
-                <p>{informazioni.valutazione}</p>
-                <p>{informazioni.numeroRecensioni}</p>
+                <p>{informazioni.categories.title}</p>
+                <p>Valutazione: {informazioni.rating}</p>
+                <p>Numero di recensioni: {informazioni.review_count}</p>
               </div>
         </div>
     )

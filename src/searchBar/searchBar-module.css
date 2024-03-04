@@ -28,6 +28,24 @@
 
 }
 
+#filtri button:hover{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+
+#filtri button:active{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(34, 0, 255);
+
+}
+
 #campi{
     width: 35%;
     display: flex;
